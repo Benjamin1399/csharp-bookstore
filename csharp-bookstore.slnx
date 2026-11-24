@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="BookStoreLibrary/BookStoreLibrary.csproj" />
   <Project Path="csharp-bookstore/csharp-bookstore.csproj" />
 </Solution>
