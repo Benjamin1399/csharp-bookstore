@@ -10,14 +10,14 @@ namespace csharp_bookstore
     {
         public string GetStringInput(string message)
         {
-            Console.WriteLine(message);
+            DisplayMessage(message);
 
             return Console.ReadLine();
         }
 
         public int GetIntInput(string message)
         {
-            Console.WriteLine(message);
+            DisplayMessage(message);
 
             string intText = Console.ReadLine();
 
@@ -35,7 +35,7 @@ namespace csharp_bookstore
 
         public decimal GetDecimalInput(string message)
         {
-            Console.WriteLine(message);
+            DisplayMessage(message);
 
             string intText = Console.ReadLine();
 
@@ -49,6 +49,11 @@ namespace csharp_bookstore
             {
                 return 0;
             }
+        }
+
+        public void DisplayMessage(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 }
